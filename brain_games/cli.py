@@ -1,2 +1,4 @@
 def welcome_user():
-    return print(f"Hello, {name := input('May I have your name? ')}") or name
+    name = input('May I have your name? ')
+    print(f"Hello, {name}")
+    return name
