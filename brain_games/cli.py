@@ -1,7 +1,2 @@
-from prompt import string
-
-
 def welcome_user():
-    print("Welcome to the Brain Games!")
-    name = string("May I have your name? ")
-    print(f"Hello, {name}!")
+    return print(f"Hello, {name := input('May I have your name? ')}") or name
