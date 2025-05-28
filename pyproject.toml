@@ -2,7 +2,7 @@
 name = "hexlet-code"
 version = "0.2.0"
 description = ""
-authors = ["Julia Oshirova weiwei04@mail.ru"]
+authors = ["Julia Oshirova <weiwei04@mail.ru>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
